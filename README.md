@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Amarashree
 - 🌱 I’m currently learning PHP, C++
-- 💞️ I’m looking to collaborate on projects related to Banking projects
+- 💞️ I’m looking to collaborate on projects related to Banking.
 - 📫 How to reach me - amarashree.gupta@gmail.com
 
 <!---
