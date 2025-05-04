@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Amarashree
-- 🌱 I’m currently learning PHP, C++
+- 🌱 I’m currently learning Multithreading with C++
 - 💞️ I’m looking to collaborate on projects related to Banking.
 - 📫 How to reach me - amarashree.gupta@gmail.com
 
