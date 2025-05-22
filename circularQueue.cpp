@@ -2,22 +2,23 @@
 
 //Implemention circular queues
 
+template<class T>
 class cQueue{
     int size;
     int f;
     int r;
-    int *arr;
+    T *arr;
 
     public:
     
     cQueue(const int& s){
         size = s;
-        arr = new int[size];
+        arr = new T[size];
         f = r = 0;
         std::cout<<"\ncQueue of size="<<size<<" is created";
     }
 
-    void enqueue(const int& element){
+    void enqueue(const T& element){
 
         if(((r+1) % (size)) != f)
         {
@@ -40,7 +41,7 @@ class cQueue{
         }
     }
 
-    int dequeue(){
+    T dequeue(){
         if(f == r)
             std::cout<<"\nQueue is empty";
         else{
@@ -51,29 +52,3 @@ class cQueue{
     }
 
 };
-
-int main(){
-
-    int size = 5;
-    cQueue cq(size);
-
-    for(int i=0;i<size;i++)
-        cq.enqueue(i);
-
-    for(int i=0;i<size/2;i++)
-        cq.dequeue();
-    
-    for(int i=0;i<size;i++)
-        cq.enqueue(i);
-    
-
-
-
-
-
-
-
-
-    std::cout<<"\n\n\n";
-    return 0;
-}
